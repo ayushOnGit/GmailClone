@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://gmail-clone-blue.vercel.app/';
 
 const API = async(urlObject,payload , type)=>{
    return await axios({
