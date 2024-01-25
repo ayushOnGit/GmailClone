@@ -7,7 +7,7 @@ const app = express();
 
 const corsOptions = {
   origin: 'https://gmail-clone-74y9.vercel.app', // Remove the trailing slash
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'], // Use an array of strings
   credentials: true,
   optionsSuccessStatus: 204,
 };
