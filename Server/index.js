@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 
 const corsOptions = {
-  origin: 'https://gmail-clone-74y9.vercel.app', // Update this with your frontend origin
+  origin: 'https://gmail-clone-74y9.vercel.app/', // Update this with your frontend origin
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
   optionsSuccessStatus: 204,
